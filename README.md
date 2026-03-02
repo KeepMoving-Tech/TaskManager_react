@@ -23,6 +23,8 @@ Nyísd meg a böngészőben a http://localhost:5173 címen
 
 
 Mobile:
+
+
 <img width="536" height="999" alt="image" src="https://github.com/user-attachments/assets/c724dbd7-a17a-44ee-8d07-5c7a8f16bfe7" />
 
 
