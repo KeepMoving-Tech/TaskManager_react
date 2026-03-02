@@ -42,5 +42,5 @@ Mobile:
 -  Kategóriák: Bevezetnék kategóriákat (Munka, Szabadidő, Sürgős) különböző színkódokkal.
 -  Drag-and-Drop: Jó lenne a feladatokat egyszerűen húzással átrendezni vagy állapotot váltani velük.
 
-Csak kisebb problémákba ütköztem, ami kis idő elteltésvel megoldásra került.
+Csak kisebb problémákba ütköztem, ami egy kis gondolkodással javításra került.
   
