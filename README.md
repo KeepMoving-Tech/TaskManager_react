@@ -1,73 +1,40 @@
-# React + TypeScript + Vite
+# TaskManager - React Feladatkezelő Alkalmazás
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Egy modern és reszponziv webes alkalmazást, amellyel a mindennapi teendőidet kezelheted. Az adatokat a böngésző menti.
 
-Currently, two official plugins are available:
+## 🚀 Hogyan futtatható a program?
+A futtatáshoz szükséged lesz a [Node.js](https://nodejs.org/) környezetre.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Klónozd a tárolót:
+   git clone [https://github.com/KeepMoving-Tech/TaskManager_react.git](https://github.com/KeepMoving-Tech/TaskManager_react.git)
 
-## React Compiler
+ Lépj be a megfelelő mappába Command Prompttal
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+ Telepítsd a következőt az alábbi paranccsal:
+  - npm install
 
-## Expanding the ESLint configuration
+   Indísd el a szervert:
+  - npm run dev
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+<img width="755" height="1222" alt="image" src="https://github.com/user-attachments/assets/5ebd600f-ea31-4ba1-8595-6bdbca86b039" />
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+![Uploading image.png…]()
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Nyísd meg a böngészőben a http://localhost:5173 címen
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### Felhasznált technológia
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+-  React (Vite): A felhasználói felület felépítéséhez.
+-  TypeScript: A típusbiztos kód és a hibák minimalizálása érdekében.
+-  CSS3 (Natív): Egyedi, szétválasztott stíluslapok (Modularizált CSS).
+-  LocalStorage API: Az adatok perzisztens tárolásához.
+-  Lucide React / SVG: Ikonok a vizuális visszajelzésekhez.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+#### További fejlesztések amik még várhatóak:
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+-  Backend integráció: LocalStorage helyett egy valódi adatbázist
+-  Kategóriák: Bevezetnék kategóriákat (Munka, Szabadidő, Sürgős) különböző színkódokkal.
+-  Drag-and-Drop: Jó lenne a feladatokat egyszerűen húzással átrendezni vagy állapotot váltani velük.
+
+Csak kisebb problémákba ütköztem, ami kis idő elteltésvel megoldásra került.
+  
