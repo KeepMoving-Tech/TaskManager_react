@@ -13,6 +13,7 @@ const Taskform: React.FC<Taskform> = ({ onCancel, onAddTask }) => {
 
   const handleSubmit = () => {
     if (title.trim() === "") return alert("Missing Title!");
+    if (date === "") return alert("Please set a deadline.!");
     onAddTask(title, desc, date);
   };
 
