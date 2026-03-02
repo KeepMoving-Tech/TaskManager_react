@@ -1,0 +1,28 @@
+.task-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+  padding: 20px;
+  background-color: #ffea311a;
+  border-radius: 12px;
+  overflow-y: auto;
+}
+
+.task-item-card {
+  background-color: #fff;
+  border-left: 10px solid #f83a00d8;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  flex: 1 1 250px; 
+  max-width: 300px;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.task-item-card.completed {
+  border-left: 10px solid #4caf50;
+}

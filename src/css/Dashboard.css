@@ -1,0 +1,64 @@
+.dashboard-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.dashboardbox {
+  display: flex;
+  background-color: white;
+  width: 85%;
+  min-width: 1080px;
+  max-width: 1400px;
+  height: 80vh;
+  margin: 50px auto;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); 
+  color: black;
+  border: 1px solid #e0e0e0;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.content {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+.dashboardbox {
+    flex-direction: column;
+    width: 95%;
+    height: auto;
+    margin: 20px auto;
+    min-width: 320px;
+    justify-content: center;
+  }
+
+  .content {
+    padding: 20px;
+  }
+
+  .content-header {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .add-task-btn {
+    right: 5px;
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+  }
+}
