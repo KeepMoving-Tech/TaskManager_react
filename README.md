@@ -16,11 +16,15 @@ Klónozd a tárolót:
    Indísd el a szervert:
   - npm run dev
 
-<img width="755" height="1222" alt="image" src="https://github.com/user-attachments/assets/5ebd600f-ea31-4ba1-8595-6bdbca86b039" />
-
-![Uploading image.png…]()
-
 Nyísd meg a böngészőben a http://localhost:5173 címen
+
+<img width="1571" height="994" alt="image" src="https://github.com/user-attachments/assets/42f82b3f-0330-4d3a-8960-895254ac14cf" />
+<img width="1540" height="1003" alt="image" src="https://github.com/user-attachments/assets/25f60251-7ef9-4924-986b-5660afc093ca" />
+
+
+Mobile:
+<img width="536" height="999" alt="image" src="https://github.com/user-attachments/assets/c724dbd7-a17a-44ee-8d07-5c7a8f16bfe7" />
+
 
 ### Felhasznált technológia
 
